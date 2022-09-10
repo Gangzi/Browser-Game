@@ -29,9 +29,9 @@ setInterval(() => {
         block.style.display = '';
     }
     /* when collision also gets the score*/
-    if (blockLeft < 180 && blockLeft >130 && playerTop >= 190 ) {
-        alert("Your score is : " + score.innerText + 
-        "      Refresh and try again?");
+    if (blockLeft < 185 && blockLeft > 135 && playerTop >= 185) {
+        alert("Your score is : " + score.innerText +
+            "      Refresh and try again?");
     }
 
 }, 50);

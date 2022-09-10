@@ -1,10 +1,13 @@
 #score {
     text-align: center;
+   color: #870505;
 }
-h2{
+
+#yourscore{
     text-align: center;
- 
+   
 }
+
 .game {
     margin: auto;
     border: 1px solid black;
@@ -14,10 +17,10 @@ h2{
     background-size: cover;
 }
 
-#player{
+#player {
     position: relative;
     top: 190px;
-    left: 130px;
+    left: 135px;
     width: 20px;
     height: 30px;
 }
@@ -30,13 +33,14 @@ h2{
 #block {
     width: 35px;
     height: 55px;
-    position:relative;
-    top: 175px ;
+    position: relative;
+    top: 175px;
     left: 680px;
-    animation: block 2s infinite linear;
+    animation: block 1.5s infinite linear;
     background-image: url("https://freepngimg.com/thumb/mario_bros/92977-mario-cylinder-super-green-bros-free-transparent-image-hq.png");
     background-size: cover;
 }
+
 /*make the block moving from right to left*/
 @keyframes block {
     0% {
@@ -47,6 +51,7 @@ h2{
         left: 0px
     }
 }
+
 /* set player jump*/
 @keyframes jump {
     0% {
